@@ -54,6 +54,7 @@ button:hover {
 #resultSearching {
     text-align: center;
   margin: 1em auto 0 auto;
+  padding-left: 0.2em;
   width: 70%;
   height: 25px;
   background-color: rgba(247, 249, 252, 0.975);
