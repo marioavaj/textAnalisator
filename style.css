@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(205, 205, 205);
+  height: 580px;
+  background-image: url(/technology-7111798_1920.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin: -1em;
+}
+
+textarea {
+  margin: 1em;
+  border: transparent;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(247, 249, 252, 0.975);
+  font-size: 1.1em;
+}
+
+button {
+  margin: 0 6px 0 6px;
+  border-radius: 3px;
+  border-color: transparent;
+  background-color: rgb(113, 113, 113);
+  color: white;
+  box-shadow: 1px -1px 30px -9px rgba(0, 0, 0, 0.75);
+  font-size: 1.5em;
+  padding: 0.5em 1.1em 0.5em 1.1em;
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+#findWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#resultSearching {
+    text-align: center;
+  margin: 1em auto 0 auto;
+  width: 70%;
+  height: 25px;
+  background-color: rgba(247, 249, 252, 0.975);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#search {
+  background-color: rgba(247, 249, 252, 0.975);
+  font-size: 1.5em;
+  border: none;
+  margin-right: 3px;
+}
+
+#analyse {
+  text-align: center;
+  margin: 2em auto 0 auto;
+  width: 60%;
+  height: 50px;
+  
+  color: azure;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

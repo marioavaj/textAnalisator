@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <title>Textový analizátor</title>
+  </head>
+  <body>
+    <div id="form">
+      <div id="findWrapper">
+        <input id="search" type="search" name="search" />
+        <button
+          id="find"
+          class="fa-solid fa-magnifying-glass"
+          onclick="find()"
+        ></button
+        ><br />
+      </div>
+
+      <div id="resultSearching"></div>
+
+      <textarea id="textarea" rows="7" cols="70"></textarea><br/>
+
+      <div id="buttons">
+        <button id="crypto" type="submit" onclick="crypting()">
+          <a href="#"></a
+          ><i class="fa fa-question-circle" aria-hidden="true"></i> Zašifruj
+        </button>
+        <button id="analyzuj" type="submit" onclick="analysing()">
+          <i class="fa fa-pie-chart" aria-hidden="true"></i> Analyzuj
+        </button>
+      </div>
+
+      <div id="analyse"></div>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
