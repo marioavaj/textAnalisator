@@ -6,7 +6,7 @@ body {
   background-image: url(/technology-7111798_1920.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 #form {
   display: flex;
@@ -71,8 +71,21 @@ button:hover {
   text-align: center;
   margin: 2em auto 0 auto;
   width: 80%;
-  height: 150px;
+  height: 100px;
   
-  color: azure;
+  color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    
+    font-family: monospace;
+    font-size: 3em;
+    margin: 0.5em;
+    background-color: rgba(249, 255, 235, 0.689);
+    color: rgb(255, 14, 14);
+    border-radius: 1em 1em 0 0 ;
+    
 }
