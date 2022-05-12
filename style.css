@@ -36,7 +36,6 @@ button {
   border-color: transparent;
   background-color: rgb(113, 113, 113);
   color: white;
-  box-shadow: 1px -1px 30px -9px rgba(0, 0, 0, 0.75);
   font-size: 1.5em;
   padding: 0.5em 1.1em 0.5em 1.1em;
 }
@@ -72,7 +71,7 @@ button:hover {
   text-align: center;
   margin: 2em auto 0 auto;
   width: 60%;
-  height: 50px;
+  height: 100px;
   
   color: azure;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
