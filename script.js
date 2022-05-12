@@ -17,22 +17,31 @@ function crypting() {}
 
 function analysing() {
   textArea = document.getElementById("textarea").value;
+
   /**dlzka textu */
   let stringLength = textArea.length;
 
   /**dlzka textu bez medzier*/
   let noSpaces = textArea.replace(/\s/gi, "");
-  console.log(noSpaces);
   let stringlengthNoSpaces = noSpaces.length;
 
   /**Pocet cisel*/
-  let integers = parseInt(textArea);
+  let numberCount=0;
+  let splitt = textArea.split( " ");
+   for( i =0; i<splitt.length; i++){
+    let numbers=parseInt(splitt[i]);
+      if (numbers > 0 || numbers < 0){
+      numberCount++;
+      }     
+  }
+  console.log(numberCount++);
+  
 
   analyse.style.backgroundColor = "#ff0000";
   analyse.innerHTML =
-    "Celkovy počet znakov v texte aj s medzerami je " +
-    stringLength +
-    "<br />" +
+    "Celkovy počet znakov v texte aj s medzerami je " + stringLength + "<br />" +
     "Celkovy počet znakov v texte bez medzier je " +
-    stringlengthNoSpaces;
+    stringlengthNoSpaces +
+    "<br />" +
+    "V texte sa nachádza  " + numberCount + " čísel" ;
 }
